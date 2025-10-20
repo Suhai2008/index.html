@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0) 8px 4px 12px;
+}
+
+.container-logo{
+    height: 30px;
+    width: 30px;
+}
+
+.container-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.container.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container.titulo h1{
+    font-size: 85px;
+    color: aqua;
+}
+
+#container-personajes {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+    padding: 20px;
+}
+
+.personaje img:hover {
+    transform: scale(1.05);
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
